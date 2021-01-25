@@ -19,7 +19,7 @@ with open(cafile, 'ab') as outfile:
  ```
 
 4. Open connection
-### example
+### Example
 ```conn=phoenixdb.connect("https://yourhostname:8765, authentication="SPNEGO", autocommit=True)```
 
 Well Done, you already connect to Hbase using python :)
